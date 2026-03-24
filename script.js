@@ -8,9 +8,15 @@
 for (let i = 0; i <= 100; i++) { // dichiaro e assegno variabile i con valore 0 per il loop; aggiungi 1 a ogni ciclo fino a che i <=100
     
     if (i % 3 === 0) {  // se il numero e'multiplo di 3, stampa fizz
-    console.log("fizz");
+    console.log("Fizz");
 
     }
+
+    else if (i % 5 === 0) {  // se il numero e'multiplo di 5, stampa Buzz
+    console.log("Buzz");
+
+    }
+
 
     else { // altrimenti stampa i
         console.log(i);
