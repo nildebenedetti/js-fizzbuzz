@@ -5,8 +5,8 @@
 
 for (let i = 0; i <= 100; i++) { // dichiaro e assegno variabile i con valore 0 per il loop; aggiungi 1 a ogni ciclo fino a che i <=100
     
-    if (i % 3 === 0 && i % 5 === 0) { // se i e'sia multiplo di 3 che di 5, stampa, al;trimenti prosegui
-        console.log("FizzBuzz");
+    if (i % 3 === 0 && i % 5 === 0) { // se i e'sia multiplo di 3 che di 5, stampa, al;trimenti prosegui;
+        console.log("FizzBuzz");      // posizioniamo qui la condizione complessa per prioritizzare l'esecuzione nel programma
 
     }
 
@@ -18,9 +18,7 @@ for (let i = 0; i <= 100; i++) { // dichiaro e assegno variabile i con valore 0 
        else if (i % 5 === 0) {  // se il numero e' multiplo di 5, stampa Buzz
     console.log("Buzz");
 
-       }
-
-    else { // altrimenti stampa i
+       }    else { // altrimenti stampa i
         console.log(i);
     }
 } 
